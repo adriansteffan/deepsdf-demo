@@ -1,5 +1,6 @@
 videos/*.mp4
 *.mp4
+!presentation/dist/*.mp4
 
 model/runs_sdf/
 model/samples_dict_*.npy
