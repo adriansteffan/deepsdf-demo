@@ -1,0 +1,22 @@
+# torch + torchvision are CUDA 12.8 wheels; install them via:
+#   pip install torch==2.11.0+cu128 torchvision==0.26.0+cu128 \
+#       --index-url https://download.pytorch.org/whl/cu128
+# then `pip install -r requirements.txt` for the rest.
+
+numpy==2.4.3
+scipy==1.17.1
+PyYAML==6.0.3
+tqdm==4.67.3
+matplotlib==3.10.9
+Pillow==12.1.1
+trimesh==4.12.2
+scikit-image==0.26.0
+point-cloud-utils==0.34.0
+fast-simplification==0.1.13
+shapely==2.1.2
+Rtree==1.4.1
+mapbox-earcut==2.0.0
+pyrender==0.1.45
+PyOpenGL==3.1.0
+imageio==2.37.3
+imageio-ffmpeg==0.6.0
